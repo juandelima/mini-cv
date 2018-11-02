@@ -1,0 +1,267 @@
+body {
+	background-color: #6e15e1;
+	font-family: "Open Sans";
+	margin: 0;
+}
+
+p {
+	color: #fefefe;
+}
+.logo {
+	left: 6%;
+	font-size: 50px;
+	position: absolute;
+	color: #fefefe;
+	font-weight: 400;
+	top: 3%;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10%;
+	/*margin-left: 10%;*/
+	justify-content: center;
+}
+
+.box-avatar {
+	background-color: #7725e3;
+	width: 500px;
+	height: 420px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	margin-right: 20px;
+}
+
+/*.sub-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}*/
+
+.box-profile {
+	background-color: #7725e3;
+	width: 500px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	height: 420px;
+	margin-bottom: 20px;
+	/*padding-left: 15px;
+*/}
+
+/*.box-skills {
+	background-color: #7725e3;
+	width: 500px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	height: 225px;
+}*/
+
+.tick-border {
+	border: 4px solid #6e15e1;
+	width: 220px;
+	height: 220px;
+	border-radius: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-top: 6.5px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.sub-border {
+	border: 6px solid #650cd6;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+.img {
+	background-color: #6e17e0;
+	background-size: 280px;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin: 0 auto;
+	background-image: url("../images/photo.jpg");
+	background-repeat: no-repeat;
+}
+
+.title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fefefe;
+}
+
+.passion {
+	margin-top: -13px;
+	color: #fefefe;
+	font-size: 22px;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 8px;
+	font-family: "Delicious";
+}
+
+.profile {
+	font-weight: 745;
+	font-size: 25px;
+	letter-spacing: 5px;
+	font-family: "Delicious";
+	margin-left: 22px;
+	margin-top: 15px;
+}
+.label-control {
+	display: flex;
+	flex-direction: row;
+	margin-top: -25px;
+	margin-left: 22px;
+	margin-bottom: 8px;
+}
+
+.logo-name {
+	background-color: #9451ee;
+	background-repeat: no-repeat;
+	background-size: 18px;
+	/*padding: 1px;*/
+	background-position: center;
+	background-image: url("../images/icon-profile.png");
+	border-radius: 100%;
+	height: 33px;
+	width: 33px;
+	margin-right: 12px;
+}
+
+.label {
+	margin-top: 21px;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.value {
+	font-weight: 400;
+	font-size: 17px;
+	margin-left: 35px;
+}
+
+.cent {
+	margin-left: 33px;
+}
+
+.addr {
+	margin-left: 32px;
+}
+
+.em {
+	margin-left: 31px;
+}
+.logo-birth {
+	background-color: #9451ee;
+	background-repeat: no-repeat;
+	background-size: 18px;
+	/*padding: 1px;*/
+	background-position: center;
+	background-image: url("../images/birthday.png");
+	border-radius: 100%;
+	height: 33px;
+	width: 33px;
+	margin-right: 12px;
+}
+
+.logo-loc {
+	background-color: #9451ee;
+	background-repeat: no-repeat;
+	background-size: 18px;
+	/*padding: 1px;*/
+	background-position: center;
+	background-image: url("../images/loc.png");
+	border-radius: 100%;
+	height: 33px;
+	width: 33px;
+	margin-right: 12px;
+}
+
+.logo-phone {
+	background-color: #9451ee;
+	background-repeat: no-repeat;
+	background-size: 18px;
+	/*padding: 1px;*/
+	background-position: center;
+	background-image: url("../images/phone.png");
+	border-radius: 100%;
+	height: 33px;
+	width: 33px;
+	margin-right: 12px;
+}
+
+.logo-mail {
+	background-color: #9451ee;
+	background-repeat: no-repeat;
+	background-size: 18px;
+	/*padding: 1px;*/
+	background-position: center;
+	background-image: url("../images/email.png");
+	border-radius: 100%;
+	height: 33px;
+	width: 33px;
+	margin-right: 12px;
+}
+
+.btn-group {
+	margin-top: 48px;
+	margin-left: 22px;
+	/*margin-bottom: 50px;*/
+	text-align: center; 
+}
+.btn-group a {
+	font-size: 15px;
+	margin-right: 18px;
+	text-decoration: none;
+	color: #fefefe;
+	background-color: #9852f0;
+	padding: 10px;
+	border: 1.5px solid #9852f0;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	border-bottom-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+	letter-spacing: 2px;
+	transition: all 0.50s;
+}
+
+a:hover {
+	border: 1.5px solid #fefefe;
+}
+
+a:focus {
+	background-color: #6e17e0;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	body {
+		overflow-x: hidden;
+	}
+	.logo {
+		text-align: center;
+		position: relative;
+		left: 0;
+		margin-top: 20px;
+	}
+
+	.flex-container {
+		flex-direction: column;
+	}
+
+	.box-avatar {
+		align-self: center;
+		margin-bottom: 25px;
+		width: 105%;
+	}
+
+	.box-profile {
+		align-self: center;
+		width: 100%;
+	}
+}
